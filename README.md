@@ -3,6 +3,7 @@
 **Bootstrap Project Website**
 
 ## Project Aim
-*Create a website using bootstrap 5 framework*
+*Creating a website clone using Bootstrap 5 framework*
 
-[Bootstrap Project Lİve Page]()
+🚀✨ [Bootstrap Project Live Page](https://zlhshn.github.io/clrs_boots/)  ✨🚀
+
