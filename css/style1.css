@@ -1,0 +1,139 @@
+:root{
+    --red:#DC3545
+}
+
+
+
+
+/*! -------------- 1- NAVBAR --------------------- */
+
+.navbar-nav {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.navbar .nav-link:hover{
+   color: var(--red);
+}
+
+
+/*! -------------- 2- CAROUSEL ------------------- */
+
+
+.carousel-item{
+
+    max-height: calc(100vh - 95px);
+}
+
+
+.carousel-caption .btn{
+    width: 7rem;
+}
+
+
+.carousel-caption h5{
+    color: var(--red);
+    font-size: 2.4rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+.carousel-caption p{
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+}
+
+.carousel-caption{
+
+    /* margin-bottom: 10rem; */
+    bottom: 5rem;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.carousel-indicators{
+    gap: 0.7rem;
+
+}
+
+.carousel-indicators button{
+    background-color: var(--red) !important;
+    padding: .1rem !important;
+    width: 3rem !important;
+
+}
+
+/*! -------------- 3- ABOUT SECTION -------------- */
+
+/*! -------------- 4- INSTRUCTORS ---------------- */
+
+section#instructors .card{
+    transition: transform 1s ease-in-out ;
+}
+section#instructors .card:hover{
+    transform: scale(1.05);
+
+}
+
+section#instructors i{
+ transition: opacity 0.6s ease-in-out;  
+ 
+}
+section#instructors i:hover{
+   
+opacity: 0.5;
+}
+
+/*! -------------- 4- STUDENTS SECTION ----------- */
+
+
+
+/*! -------------- 5- COURSES SECTION ------------ */
+
+/*! -------------- 6- CONTACT SECTION ------------ */
+
+section#contact .row p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+section#contact i{
+    color: var(--red);
+    font-size: 2.2rem;
+}
+
+form .name{
+    width: 100%;
+
+}
+
+
+form .email{
+    width: 100%;
+}
+
+form input,textarea {
+    width: 100%;
+    margin-top: 1rem;
+    padding: .3rem;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    outline: none;
+    
+}
+
+
+/*! -------------- 7- FOOTER --------------------- */
+
+footer i{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+footer i:hover{
+
+    color: var(--red);
+}

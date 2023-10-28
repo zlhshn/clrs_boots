@@ -5,80 +5,438 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style1.css">
   </head>
   <body>
-    
-
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./img/CLARUSWAY_LOGO.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold fs-5 ">
-              <li class="nav-item ">
-                <a class="nav-link active " aria-current="page" href="#home">HOME</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#students">STUDENTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#courses">COURSES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
 
 
 
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active ">
-            <img src="./img/slider1.jpg" class="d-block w-100 " alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5">
-              <h5 class="text-danger h1 fw-medium " >Popular Education</h5>
-              <p class="fw-medium">Some representative placeholder content for the first slide</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/slider2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-danger">Succesful Future</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/slider3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-danger">Dream Job</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 Navbar                                  -->
+<!-- ----------------------------------------------------------------------- -->
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/CLARUSWAY_LOGO.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#student">Student</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+       
       </div>
+    </div>
+  </nav>
+
+
+
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                Carousel                                 -->
+<!-- ----------------------------------------------------------------------- -->
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/slider1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5>Popular Education</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <div>
+            <button class="btn btn-danger">Start Now</button>
+            <button class="btn btn-warning">Register</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5>Succesful Future</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+
+          <div>
+            <button class="btn btn-danger">Start Now</button>
+            <button class="btn btn-warning">Register</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5>Dream Job</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <div>
+            <button class="btn btn-danger">Start Now</button>
+            <button class="btn btn-warning">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 MAİN                                    -->
+  <!-- ----------------------------------------------------------------------- -->
+
+<main class="text-center bg-light container">
+
+   
+    <!--   --------------- about -----------------   -->
+
+    <section id="about">
+        <h2 class="display-6 text-danger">ABOUT US</h2>
+
+        <div class="row justify-content-center p-3">
+            <div class="col-sm-12 col-md-6 col-lg-4  ">
+                <i class="fas fa-globe-americas fa-2x"></i>
+                <h4>Online Courses</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi id amet quas debitis explicabo doloremque, natus deserunt laudantium nulla ipsam.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4  ">
+                <i class="fas fa-headset fa-2x"></i>
+                <h4>Fulltime Mentoring</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi id amet quas debitis explicabo doloremque, natus deserunt laudantium nulla ipsam.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4  ">
+                <i class="fas fa-book-open fa-2x"></i>
+                <h4>Learn Yourself</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi id amet quas debitis explicabo doloremque, natus deserunt laudantium nulla ipsam.</p>
+
+            </div>
+           
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- --------------- instructors ---------- -->
+
+    <section id="instructors" class="bg-dark p-3">
+
+        <h2 class="text-danger display-6">OUR INSTRUCTOR</h2>
+        <div class="row justify-content-center g-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card" >
+                    <img src="./img/teacher1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Josh Ren</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card" >
+                    <img src="./img/teacher2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bob Ken</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card" >
+                    <img src="./img/teacher3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jessica Sunny</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card" >
+                    <img src="./img/teacher4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jonny Came</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card" >
+                    <img src="./img/teacher5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Osho</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                    <img src="./img/teacher6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Brandon White</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="text-danger d-flex justify-content-evenly fa-2x">
+                        <i class="fa-brands fa-facebook-square "></i>
+                        <i class="fa-brands fa-instagram-square "></i>
+                        <i class="fa-brands fa-square-x-twitter "></i>
+                        <i class="fa-brands fa-google-plus-square "></i>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ------------- student ----------- -->
+
+  <section id="student" class="p-3 ">
+      <h2 class="text-danger display-6 ">OUR STUDENTS</h2>
+      <div class="row justify-content-center  align-items-center ">
+        <div class="col-12 col-md-6 text-center">
+          <p class="">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ullam? Tenetur repellat dignissimos omnis, accusantium placeat, commodi corporis nam natus, optio laboriosam neque incidunt nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
+        </p>
+        <button type="button" class="btn btn-danger">Learn More</button>
+      </div>
+      
+        <div class="col-12 col-md-6">
+          <img src="./img/students1.png" alt="" class="w-75">
+        </div>
+
+      </div>
+  </section>
+
+      <!-- ---------courses------------ -->
+
+  <section id="courses" class="bg-dark">
+
+    <h2 class="text-danger display-6">COURSES</h2>
+   
+
+    <ul class="nav nav-pills mb-3 p-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link  text-bg-danger" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Full-Stack</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link text-white " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Data-Science</button>
+      </li>
+      <li class="nav-item " role="presentation">
+        <button class="nav-link text-white  " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">DevOps</button>
+      </li>
+    </ul>
+
+
+
+    <div class="tab-content p-3" id="pills-tabContent">
+      <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div class="row g-3">
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/fs1.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/fs2.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/fs3.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/fs4.jpg" class="img-thumbnail" alt="...">
+      </div>
+        
+
+        </div>
+      </div>
+
+
+
+      <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="row">
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ds1.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ds2.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ds3.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ds4.jpg" class="img-thumbnail" alt="...">
+      </div>
+      </div>
+    </div>
+
+
+
+
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          
+        <div class="row">
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ops1.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ops2.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ops3.jpg" class="img-thumbnail" alt="...">
+      </div>
+          <div class="col-12  col-lg-6 col-xl-3">
+        <img src="./img/thumbnail/ops4.jpg" class="img-thumbnail" alt="...">
+      </div>
+
+      </div>
+      
+    </div>
+
+
+</div>
+
+
+
+
+  </section>
+
+         <!-- ------contact---------- -->
+
+  <section id="contact" class="p-3">
+    <h2 class="text-danger display-6" >CONTACT</h2>
+   <p class="text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, officia ratione aperiam doloremque corporis enim!</p>
+    <div class="row ">
+      <div class="col-12 col-md-4">
+        <i class="fa-solid fa-phone"></i>
+        <p >Telephone</p>
+         <a href="tel:+9023409567">+9023409567</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <i class="fa-brands fa-whatsapp"></i>
+        <p>Whatsapp</p>
+         <a href="tel:+9023409567">+9023409567</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Whatsapp</p>
+         <a href="mailto:info@clarusway.com">info@clarusway.com</a>
+      </div>
+
+
+
+    </div>
+
+<form action="" class="p-3 mt-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+       <input class="name" type="text" name="name" id="name" placeholder="Enter Name">
+      </div>
+      <div class="col-12 col-md-6">
+        <input class="email" type="email" name="email" id="email" placeholder="Enter Email">
+      </div>
+      <div class="col-12  ">
+        <input type="text" name="subject" id="subject" placeholder="Enter Subject">
+      </div>
+      <div class="col-12 ">
+        <textarea name="comment" id="comment" cols="30" rows="2" placeholder="Enter your comment" ></textarea>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-danger mt-3" style="width: 8rem;">Submit</button>
+</form>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456307.4902854982!2d-80.03971200000001!3d26.683608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d68e35c0dbed%3A0xd0d8ada1f6da9c92!2sHenry%20Morrison%20Flagler%20Museum!5e0!3m2!1sen!2str!4v1698516933152!5m2!1sen!2str" class="mb-2" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </section>
+
+   
+</main>
+
+
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 footer                                  -->
+<!-- ----------------------------------------------------------------------- -->
+
+
+<footer class="bg-black p-3 opacity-100">
+<div class="text-center text-white mt-2 fs-2">
+  <i class="fa-brands fa-facebook-f me-2"></i>
+  <i class="fa-brands fa-youtube me-2"></i>
+  <i class="fa-brands fa-linkedin me-2"></i>
+  <i class="fa-brands fa-instagram me-2"></i>
+</div>
+<p class="text-center text-white mt-3 pb-4">© 2022 Copyright by Clarusway</p>
+
+</footer>
 
 
 
